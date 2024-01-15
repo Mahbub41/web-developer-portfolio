@@ -1,0 +1,228 @@
+/* common shared styles */
+*{
+    font-family: "Inconsolata", monospace;
+}
+
+
+
+
+/* nav related styles */
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 0;
+    padding: 20px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+span{
+    color: rgb(238, 57, 57);
+}
+
+nav > ul {
+    display: flex;
+    align-content: center;
+    
+}
+
+nav  li {
+    list-style: none;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.btn-primary {
+    color:  rgb(238, 57, 57);;
+    font-size: 20px;
+    font-weight: 700;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* banner styles */
+.banner{
+    margin: 0 370px;
+    display: flex;
+}
+.banner-gretting{
+    padding-top: 200px;
+
+}
+.banner-title{
+    font-size: 70px;
+    font-weight: 400;
+}
+/* images tags */
+.portfolio-pic{
+    width: 500px;
+    position: bottom right;
+}
+
+header {
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-right: 200px;
+}
+img{
+    justify-content: right;
+}
+buttons{
+    display: flex;
+}
+.btn-primary2 {
+    background-color:  rgb(238, 57, 57);
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+}
+
+.btn-primary3 {
+    color:  rgb(238, 57, 57);;
+    font-size: 20px;
+    font-weight: 700;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+
+}
+
+/* Main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+}
+/* About section */
+.about{
+    align-content: center;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3; 
+    margin-top: 130px;
+
+}
+
+.about-heading{
+    color: #181818;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.about-text{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.info-description{
+    font-weight: 600;
+}
+
+/* what i do section */
+.what-i-do{
+    margin-top: 130px;
+}
+#what-i-do{
+    padding: 30px 150px;
+}
+
+/* Skils */
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skils-shown{
+    padding: 33px;
+    gap: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{ 
+    color: #757575;
+}
+
+/* Education */
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.cname{
+    font-weight: 600;
+}
+
+.Summary{
+    display: flex;
+    justify-content: space-around;
+}
+
+#summaryC1{
+    max-width: 511px;
+    gap: 24px;
+}
+#summaryC2{
+    max-width: 511px;
+    gap: 24px;
+}
+.summry-heading{
+    gap: 35px;
+}
+.connect{
+    padding: 130px 200px;
+    display: flex;
+}
+.social-links{
+    padding: 0 200px;
+}
+
+/* Form instalment */
+.form input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0;
+    width: 100%;
+}
+.footers{
+    background-color:  rgb(228, 228, 228);
+}
